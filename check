@@ -1,0 +1,28 @@
+################################################ check.py ####################################
+colors = ["red", "green", "blues"]
+colorss = ["red", "green", "blue"]
+i = 0
+j = 0
+with open("C:\\q.txt") as f: 
+	for line in f: 
+		while i < len(colors) and j < len(colorss):
+			if(colors[i]!=colorss[j]):
+				print("wrong words : ",colors[j])
+			else:
+				print(colors[i])
+			i += 1
+			j += 1
+##############################################################################################
+
+###### t.txt ########
+a
+b
+c
+####################
+
+สิ่งที่ต้องการ
+
+a red
+b green
+c wrong words blues
+
